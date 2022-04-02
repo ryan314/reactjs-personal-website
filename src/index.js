@@ -2,11 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Home from './Home.js';
 import reportWebVitals from './reportWebVitals';
 
+
+import {
+  BrowserRouter as Router, 
+  Routes, 
+  Route, 
+  Navigate,
+  Link,
+  Outlet,
+  useParams,
+  NavLink,
+  useNavigate,
+  useLocation
+} from 'react-router-dom';
+
 ReactDOM.render(
-    <App />,
-  
+  <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  </Router>,
   document.getElementById('root')
 );
 
