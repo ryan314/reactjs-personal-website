@@ -20,7 +20,7 @@ import {
 function Home() {
   return (
     <div>
-       <div className='link-bar'></div>
+      <div className='link-bar'></div>
 
       <img className='selfie' src={selfie}></img>
 

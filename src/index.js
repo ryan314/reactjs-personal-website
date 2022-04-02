@@ -20,11 +20,7 @@ import {
 } from 'react-router-dom';
 
 ReactDOM.render(
-  <Router>
-    <Routes>
-      <Route path="/" element={<Home />} />
-    </Routes>
-  </Router>,
+  <Home />,
   document.getElementById('root')
 );
 
