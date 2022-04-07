@@ -1,27 +1,50 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './Pages/Home.js';
+import RelevantProjects from './Pages/RelevantProjects.js';
+import Education from './Pages/Education.js';
+import Achievements from './Pages/Achievements.js';
+import ClubsAndSocieties from './Pages/ClubsAndSocieties.js';
+import Hobbies from './Pages/Hobbies.js';
+
+
+import {
+  BrowserRouter as Router, 
+  Routes, 
+  Route, 
+  Navigate,
+  Link,
+  Outlet,
+  useParams,
+  NavLink,
+  useNavigate,
+  useLocation,
+} from 'react-router-dom';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <Router>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/RelevantProjects">Relevant Projects</Link>
+        <Link to="/Education">Education</Link>
+        <Link to="/Achievements">Achievements</Link>
+        <Link to="/ClubsAndSocieties">Clubs and Societies</Link>
+        <Link to="/Hobbies">Hobbies</Link>
+      </nav>
 
-        <div>Hello my name is ryan</div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/RelevantProjects" element={<RelevantProjects />} />
+        <Route path="/Education" element={<Education />} />
+        <Route path="/Achievements" element={<Achievements />} />
+        <Route path="/ClubsAndSocieties" element={<ClubsAndSocieties />} />
+        <Route path="/Hobbies/:id" element={<Hobbies />} />
+      </Routes>
 
-      </header>
-    </div>
+      <div>FOOTER</div>
+    </Router>
   );
 }
 

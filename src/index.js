@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Home from './Home.js';
 import reportWebVitals from './reportWebVitals';
 
+import App from './App.js';
 
 import {
   BrowserRouter as Router, 
@@ -20,7 +19,7 @@ import {
 } from 'react-router-dom';
 
 ReactDOM.render(
-  <Home />,
+  <App />, 
   document.getElementById('root')
 );
 
