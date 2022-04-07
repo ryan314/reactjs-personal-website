@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/reactjs-personal-website/static/css/main.073c9b0a.css",
-    "main.js": "/reactjs-personal-website/static/js/main.cfed56a0.js",
+    "main.css": "/reactjs-personal-website/static/css/main.e9784561.css",
+    "main.js": "/reactjs-personal-website/static/js/main.5d346c79.js",
     "static/js/787.c0c3df57.chunk.js": "/reactjs-personal-website/static/js/787.c0c3df57.chunk.js",
-    "static/media/selfie.jpg": "/reactjs-personal-website/static/media/selfie.063a01508226b574f79c.jpg",
     "static/media/logo.svg": "/reactjs-personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/reactjs-personal-website/index.html",
-    "main.073c9b0a.css.map": "/reactjs-personal-website/static/css/main.073c9b0a.css.map",
-    "main.cfed56a0.js.map": "/reactjs-personal-website/static/js/main.cfed56a0.js.map",
+    "main.e9784561.css.map": "/reactjs-personal-website/static/css/main.e9784561.css.map",
+    "main.5d346c79.js.map": "/reactjs-personal-website/static/js/main.5d346c79.js.map",
     "787.c0c3df57.chunk.js.map": "/reactjs-personal-website/static/js/787.c0c3df57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.cfed56a0.js"
+    "static/css/main.e9784561.css",
+    "static/js/main.5d346c79.js"
   ]
 }
