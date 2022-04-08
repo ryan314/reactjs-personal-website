@@ -25,13 +25,14 @@ function App() {
 
   return (
     <Router>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/RelevantProjects">Relevant Projects</Link>
-        <Link to="/Education">Education</Link>
-        <Link to="/Achievements">Achievements</Link>
-        <Link to="/ClubsAndSocieties">Clubs and Societies</Link>
-        <Link to="/Hobbies">Hobbies</Link>
+      <div className="logo">Ryan Chiu</div>
+      <nav className="navbar">
+        <Link to="/" className="nav-link">Home</Link>
+        <Link to="/RelevantProjects" className="nav-link">Relevant Projects</Link>
+        <Link to="/Education" className="nav-link">Education</Link>
+        <Link to="/Achievements" className="nav-link">Achievements</Link>
+        <Link to="/ClubsAndSocieties" className="nav-link">Clubs and Societies</Link>
+        <Link to="/Hobbies" className="nav-link">Hobbies</Link>
       </nav>
 
       <Routes>
@@ -40,10 +41,12 @@ function App() {
         <Route path="/Education" element={<Education />} />
         <Route path="/Achievements" element={<Achievements />} />
         <Route path="/ClubsAndSocieties" element={<ClubsAndSocieties />} />
-        <Route path="/Hobbies/:id" element={<Hobbies />} />
+        <Route path="/Hobbies" element={<Hobbies />} />
       </Routes>
 
-      <div>FOOTER</div>
+      <div className="footer">
+      
+      </div>
     </Router>
   );
 }

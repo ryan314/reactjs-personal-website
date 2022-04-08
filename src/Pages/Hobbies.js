@@ -1,12 +1,23 @@
 import React from 'react'
-import { useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import './Hobbies.css';
 
 function Hobbies() {
-  let { id } = useParams();
+  let navigate = useNavigate();
 
   return (
-    <div>This is the { id } hobby!</div>
+    <div>
+        This is hobby!
+
+        <button
+        onClick={() => {
+            navigate("/");}}
+        className='hobbies-home-btn'>
+            HOME
+        </button> 
+    </div>
   )
 }
 
 export default Hobbies;
+

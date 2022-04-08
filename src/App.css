@@ -1,3 +1,36 @@
+.logo {
+  color: white;
+  position: absolute;
+  transform: translate(50%, -5%);
+  font-size: 40px;
+  font-weight: 1000;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  list-style: none;
+  max-width: 2000px;
+  background:rgb(54, 53, 53); 
+  height: 100px;
+}
+
+.nav-link {
+  color: white;
+}
+
 .home-btn {
   background: #000000
 }
+
+.footer {
+  position: relative;
+  padding: 150px;  
+  background: rgb(208, 230, 238);
+  top: 700px;
+  max-width: 2000px;
+}
+
+
