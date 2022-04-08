@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './RelevantProjects.css';
+import Cards from './RelevantProjectsCards.js';
 
 
 function RelevantProjects() {
@@ -16,6 +17,8 @@ function RelevantProjects() {
         className='relevantprojects-home-btn'>
             HOME
         </button>   
+
+        <Cards />
     </div>
   )
 }
