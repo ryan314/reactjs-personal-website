@@ -1,36 +1,36 @@
 .logo {
-  color: white;
+  color: rgb(177, 213, 228);
   position: absolute;
-  transform: translate(50%, -5%);
+  transform: translate(740%, -160%);
   font-size: 40px;
   font-weight: 1000;
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.navbar {
+
+.navbar { 
   display: grid;
-  grid-template-columns: repeat(7, auto);
+  grid-template-columns: repeat(9, auto);
+  grid-gap: 1px;
   list-style: none;
-  max-width: 2000px;
-  background:rgb(54, 53, 53); 
+  background: black;
   height: 100px;
+  max-width: 2000px;
 }
 
 .nav-link {
   color: white;
+  border-style: double; 
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.2rem 1.2rem;
+  font-size: 17px;
 }
 
 .home-btn {
   background: #000000
-}
-
-.footer {
-  position: relative;
-  padding: 150px;  
-  background: rgb(208, 230, 238);
-  top: 700px;
-  max-width: 2000px;
 }
 
 

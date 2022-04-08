@@ -7,9 +7,7 @@ function Hobbies() {
   let navigate = useNavigate();
 
   return (
-    <div>
-        This is hobby!
-
+    <div className="hobbies-border">
         <button
         onClick={() => {
             navigate("/");}}

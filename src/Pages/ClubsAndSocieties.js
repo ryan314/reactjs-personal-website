@@ -6,8 +6,8 @@ function ClubsAndSocieties() {
   let navigate = useNavigate();
 
   return (
-    <div>
-        <div className="clubsandsocieties-title">ClubsAndSocieties</div>
+    <div className="clubsandsocieties-border">
+        <div className="clubsandsocieties-title"></div>
 
         <h4 className="club-societies">
             From 2019 to 2020, I was a part of St. Augustine CHS DECA. In this club, I participated in case competitions where me and my 

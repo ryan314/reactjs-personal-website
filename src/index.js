@@ -1,22 +1,8 @@
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
-
 import App from './App.js';
-
-import {
-  BrowserRouter as Router, 
-  Routes, 
-  Route, 
-  Navigate,
-  Link,
-  Outlet,
-  useParams,
-  NavLink,
-  useNavigate,
-  useLocation
-} from 'react-router-dom';
 
 ReactDOM.render(
   <App />, 

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './Pages/Home.js';
 import RelevantProjects from './Pages/RelevantProjects/RelevantProjects.js';
@@ -26,10 +25,9 @@ import {
 } from 'react-router-dom';
 
 function App() {
-
   return (
     <Router>
-      <div className="logo">Ryan Chiu</div>
+
       <nav className="navbar">
         <Link to="/" className="nav-link">Home</Link>
         <Link to="/RelevantProjects" className="nav-link">Relevant Projects</Link>
@@ -39,25 +37,25 @@ function App() {
         <Link to="/Hobbies" className="nav-link">Hobbies</Link>
       </nav>
 
+      <div className="logo">Ryan Chiu</div>
+
+
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/RelevantProjects" element={<RelevantProjects />} />
+        <Route path="/about-abs-func-simulator" element={<AboutAbsFuncSimulator />} />
+        <Route path="/about-rpg-game" element={<AboutRPGGame />} />
+
         <Route path="/Education" element={<Education />} />
         <Route path="/Achievements" element={<Achievements />} />
         <Route path="/ClubsAndSocieties" element={<ClubsAndSocieties />} />
-        <Route path="/Hobbies" element={<Hobbies />} />
 
+        <Route path="/Hobbies" element={<Hobbies />} />
         <Route path="/about-chess" element={<AboutChess />} />
         <Route path="/about-piano" element={<AboutPiano />} />
-        <Route path="/about-cs-projects" element={<AboutCSProjects />} />
-
-        <Route path="/about-abs-func-simulator" element={<AboutAbsFuncSimulator />} />
-        <Route path="/about-rpg-game" element={<AboutRPGGame />} />
+        <Route path="/about-cs-projects" element={<AboutCSProjects />} />        
       </Routes>
-
-      <div className="footer">
-      
-      </div>
     </Router>
   );
 }

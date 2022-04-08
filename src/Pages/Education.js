@@ -6,8 +6,8 @@ function Education() {
   let navigate = useNavigate();
 
   return (
-    <div>
-        <div className="education-title">Education</div>
+    <div className="education-border">
+        <div className="education-title"></div>
 
         <h4 className="courses">
                 ♠ MATH 135 - Algebra

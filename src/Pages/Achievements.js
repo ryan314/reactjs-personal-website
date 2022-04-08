@@ -6,8 +6,8 @@ function Achievements() {
   let navigate = useNavigate();
 
   return (
-    <div>
-        <div className="achievements-title">Achievements</div> 
+    <div className="achievements-border">
+        <div className="achievements-title"></div> 
         
         <h4 className="achievements">
             In Grade 9, I received the Mathematics Highest Achievement Award. This award is given to students who achieve the highest average

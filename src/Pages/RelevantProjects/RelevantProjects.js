@@ -8,8 +8,8 @@ function RelevantProjects() {
   let navigate = useNavigate();
 
   return (
-    <div>
-        RelevantProjects
+    <div className="relevantprojects-border">
+        
 
         <button
         onClick={() => {
