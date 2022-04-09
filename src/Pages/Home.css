@@ -16,7 +16,7 @@
   position: absolute;
   left: 50%;
   /*-ms-transform: translate(-50%, 50%);*/
-  transform: translate(-50%, 600%);
+  transform: translate(-50%, 400%);
 
   text-align: left; 
   font-size: 20px;
@@ -31,12 +31,16 @@
     color: purple;
     position: absolute;
     top: 140%;
-    left: 50%;
+    left: 53%;
+    border: 5px solid rgb(230, 171, 247);
+    border-radius: 5px;
 }
 
 .site-link2 {
     color: purple;
     position: absolute;
     top: 140%;
-    left: 40%;
+    left: 43%;
+    border: 5px solid rgb(230, 171, 247);
+    border-radius: 5px;
 }
