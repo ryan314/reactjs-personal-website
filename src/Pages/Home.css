@@ -30,7 +30,7 @@
 .site-link1 {
     color: purple;
     position: absolute;
-    top: 140%;
+    top: 200%;
     left: 53%;
     border: 5px solid rgb(230, 171, 247);
     border-radius: 5px;
@@ -39,7 +39,7 @@
 .site-link2 {
     color: purple;
     position: absolute;
-    top: 140%;
+    top: 200%;
     left: 43%;
     border: 5px solid rgb(230, 171, 247);
     border-radius: 5px;
