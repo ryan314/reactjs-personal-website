@@ -20,6 +20,7 @@
 }
 
 .nav-link {
+  font-weight: 500;
   color: white;
   border-style: double; 
   display: flex;

@@ -9,7 +9,7 @@ function ClubsAndSocieties() {
     <div className="clubsandsocieties-border">
         <div className="clubsandsocieties-title"></div>
 
-        <h4 className="club-societies">
+        <h4 className="clubs-and-societies">
             From 2019 to 2020, I was a part of St. Augustine CHS DECA. In this club, I participated in case competitions where me and my 
             DECA partner have to analyze a business case problem and provide a rational solution.
             <br/>
