@@ -10,4 +10,6 @@
     padding: 10px;
     background-color: black;
     color: white;
+    border: 2px black;
+    border-radius: 5px;
 }

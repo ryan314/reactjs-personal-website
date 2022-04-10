@@ -125,7 +125,9 @@
     position: absolute;
     bottom: -518%;
     left: 47%;  
- 
     background-color: black;
     color: white;
+    padding: 10px;
+    border: 2px black;
+    border-radius: 5px;
 }
