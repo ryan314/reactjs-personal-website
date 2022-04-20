@@ -7,9 +7,9 @@ import game from '../../Images/game.jpg';
 function Cards() {
   return (
     <div className='cards'>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <div className='cards-container'>
+        <div className='cards-wrapper'>
+          <ul className='cards-items'>
             <CardItem
               src={math}
               text='Enrich Oneself about Absolute Value Functions'

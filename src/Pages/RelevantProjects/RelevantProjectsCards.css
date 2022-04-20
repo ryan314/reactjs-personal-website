@@ -7,7 +7,7 @@
     text-align: center;
   }
   
-  .cards__container {
+  .cards-container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -16,36 +16,36 @@
     margin: 0 auto;
   }
   
-  .cards__wrapper {
+  .cards-wrapper {
     position: absolute;
     top: 40%;
     margin: 50px 0 45px;
   }
   
-  .cards__items {
+  .cards-items {
     margin-bottom: 24px;
   }
   
-  .cards__item {
+  .cards-item {
     display: flex;
     flex: 1;
     margin: 0 1rem;
-    border-radius: 10px;
+    border-radius: 9x;
   }
   
-  .cards__item__link {
+  .cards-item-link {
+    box-shadow: 0 7px 20px rgba(56, 126, 257, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 126, 257, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 126, 257, 0.017));
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
   }
   
-  .cards__item__pic-wrap {
+  .cards-item-pic-wrap {
     position: relative;
     width: 100%;
     padding-top: 67%;
@@ -57,7 +57,7 @@
     animation-duration: 2s;
   }
   
-  .cards__item__pic-wrap::after {
+  .cards-item-pic-wrap::after {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -71,7 +71,7 @@
     box-sizing: border-box;
   }
   
-  .cards__item__img {
+  .cards-item-img {
     position: absolute;
     top: 0;
     right: 0;
@@ -86,34 +86,34 @@
     transition: all 0.2s linear;
   }
   
-  .cards__item__img:hover {
+  .cards-item-img:hover {
     transform: scale(1.1);
   }
   
-  .cards__item__info {
+  .cards-item-info {
     padding: 20px 30px 30px;
   }
   
-  .cards__item__text {
+  .cards-item-text {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
   }
-  
+
   @media only screen and (min-width: 1200px) {
-    .content__blog__container {
-      width: 84%;
+    .content-blog-container {
+      width: 85%;
     }   
   }
   
   @media only screen and (min-width: 1024px) {
-    .cards__items {
+    .cards-items {
       display: flex;
     }
   }
   
   @media only screen and (max-width: 1024px) {
-    .cards__item {
+    .cards-item {
       margin-bottom: 2rem;
     }
   }
