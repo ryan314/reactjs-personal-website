@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactjs-personal-website/static/css/main.24433da8.css",
-    "main.js": "/reactjs-personal-website/static/js/main.05fe28ac.js",
+    "main.css": "/reactjs-personal-website/static/css/main.b70e57fd.css",
+    "main.js": "/reactjs-personal-website/static/js/main.bdbb9f1a.js",
     "static/js/787.c0c3df57.chunk.js": "/reactjs-personal-website/static/js/787.c0c3df57.chunk.js",
     "static/media/selfie.jpg": "/reactjs-personal-website/static/media/selfie.063a01508226b574f79c.jpg",
     "static/media/rpgGame1.jpg": "/reactjs-personal-website/static/media/rpgGame1.c033ad24696b6f789ae0.jpg",
@@ -27,12 +27,12 @@
     "static/media/game.jpg": "/reactjs-personal-website/static/media/game.afd117f337a3fc847439.jpg",
     "static/media/piano.jpg": "/reactjs-personal-website/static/media/piano.1f04a6f1e508800bcc1e.jpg",
     "index.html": "/reactjs-personal-website/index.html",
-    "main.24433da8.css.map": "/reactjs-personal-website/static/css/main.24433da8.css.map",
-    "main.05fe28ac.js.map": "/reactjs-personal-website/static/js/main.05fe28ac.js.map",
+    "main.b70e57fd.css.map": "/reactjs-personal-website/static/css/main.b70e57fd.css.map",
+    "main.bdbb9f1a.js.map": "/reactjs-personal-website/static/js/main.bdbb9f1a.js.map",
     "787.c0c3df57.chunk.js.map": "/reactjs-personal-website/static/js/787.c0c3df57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24433da8.css",
-    "static/js/main.05fe28ac.js"
+    "static/css/main.b70e57fd.css",
+    "static/js/main.bdbb9f1a.js"
   ]
 }
