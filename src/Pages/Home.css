@@ -15,9 +15,8 @@
     border-style: double;
     border-radius: 5px;
     position: absolute;
-    left: 50%;
     /*-ms-transform: translate(-50%, 50%);*/
-    transform: translate(-50%, 400%);
+    transform: translate(30%, 450%);
   
     text-align: left; 
     font-size: 20px;
