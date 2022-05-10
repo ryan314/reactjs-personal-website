@@ -26,8 +26,11 @@ function Home() {
         through this website! Fun fact: I used VS Code to code and design this website :)
       </div>
 
-      <a className="site-link1" href="https://www.linkedin.com/in/ryan-chiu-835745205/">LinkedIn</a>
-      <a className="site-link2" href="https://github.com/ryan314?tab=repositories">GitHub</a> 
+      <div className="reference-box">
+        <a className="site-link1" href="https://www.linkedin.com/in/ryan-chiu-835745205/">LinkedIn</a>
+        <a className="site-link2" href="https://github.com/ryan314?tab=repositories">GitHub</a> 
+      </div>
+      
     </div>
   );
 }
