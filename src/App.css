@@ -1,25 +1,18 @@
 .logo {
-  position: relative;
-  transform: translate(5%, -160%);
+  display: flex;
+  transform: translate(5%, -80%);
+
+  font-family: 'Times New Roman', Times, serif;
   font-size: 40px;
   font-weight: 1000;
-  text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
-
   color: rgb(177, 213, 228);
 }
 
 
 .navbar { 
-  position: relative;
-  transform: translate(35%, 0%);
-  grid-template-columns: repeat(12, auto);
-  grid-gap: 0px;
-  grid-gap: 0px;
-  display: grid;
-  list-style: none;
-  height: 100px;
-  max-width: 900px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0px 0px 0px;
 }
 
 .nav-link {
