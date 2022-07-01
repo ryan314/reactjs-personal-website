@@ -9,7 +9,7 @@ function Education() {
     <div className="education-border">
         <div className="education-title"></div>
 
-        <h4 className="courses">
+          <div className="courses">
                 ♠ MATH 135 - Algebra
                 <br/>
                 <br/>
@@ -32,7 +32,7 @@ function Education() {
                 <br/>
                 <br/>
                 ♠ CS 246 - Object-Oriented Software Development
-            </h4> 
+            </div> 
 
         <button
         onClick={() => {

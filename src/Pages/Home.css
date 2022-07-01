@@ -17,6 +17,27 @@
     font-size: 20px;
 }
 
+
+
+.site-link1 {
+    display: block;
+    transform: translate(0px, 600px);
+    text-align: center;
+    
+    color: black;
+
+}
+
+.site-link2 {
+    display: block;
+    transform: translate(0px, 600px);
+    text-align: center;
+    
+    color: black;
+}
+
+/*
+
 .reference-box {
     height: 200px;
     background: black;
@@ -24,18 +45,4 @@
     top: 1500px;
 }
 
-.site-link1 {
-    color: white;
-    position: relative;
-    top: 55%;
-    left: 48%;
-    border-radius: 5px;
-}
-
-.site-link2 {
-    color: white;
-    position: relative;
-    top: 55%;
-    left: 38%;
-    border-radius: 5px;
-}
+*/ 

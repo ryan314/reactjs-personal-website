@@ -28,6 +28,7 @@ function App() {
   return (
     <Router>
 
+
       <nav className="navbar">
         <Link to="/" className="nav-link">Home</Link>
         <Link to="/RelevantProjects" className="nav-link">Relevant Projects</Link>
@@ -38,7 +39,6 @@ function App() {
       </nav>
 
       <div className="logo">Ryan Chiu</div>
-
 
       <Routes>
         <Route path="/" element={<Home />} />

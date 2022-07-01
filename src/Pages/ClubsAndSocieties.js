@@ -9,7 +9,7 @@ function ClubsAndSocieties() {
     <div className="clubsandsocieties-border">
         <div className="clubsandsocieties-title"></div>
 
-        <h4 className="clubs-and-societies">
+        <div className="clubs-and-societies">
             From 2019 to 2020, I was a part of St. Augustine CHS DECA. In this club, I participated in case competitions where me and my 
             DECA partner have to analyze a business case problem and provide a rational solution.
             <br/>
@@ -24,7 +24,7 @@ function ClubsAndSocieties() {
             <br/>
             From 2021 to 2022, I was a member of the UW Computer Science Club where we would discuss about CS-related topics and
             bond as CS enthusiasts.
-        </h4>
+        </div>
 
         <button
         onClick={() => {

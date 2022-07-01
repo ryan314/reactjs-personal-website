@@ -9,7 +9,7 @@ function Achievements() {
     <div className="achievements-border">
         <div className="achievements-title"></div> 
         
-        <h4 className="achievements">
+        <div className="achievements">
             In Grade 9, I received the Mathematics Highest Achievement Award. This award is given to students who achieve the highest average
             in Grade 9 Mathematics. 
             <br/>
@@ -19,7 +19,7 @@ function Achievements() {
             <br/>
             <br/>
             I received the President's School/Distinction Scholarshid, which is awarded to incoming students who achieve 95%+ in Grade 12.
-        </h4>
+        </div>
         
         <button
         onClick={() => {
