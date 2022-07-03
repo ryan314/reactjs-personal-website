@@ -1,13 +1,40 @@
-.card-container {
+.rp-card-container {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin: auto;
   height: 1100px;
 }
 
-.card-items {
+.rp-card-1 {
   display: flex;
+  flex-direction: column;
+  border-style: double;
+  border-radius: 10px;
+  padding: 10px;
   margin: auto;
+  width: 200px;
 }
 
+.rp-card-2 {
+  display: flex;
+  flex-direction: column;
+  border-style: double;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  width: 200px;
+}
 
+.math-img {
+  width: 200px;
+  height: 200px;
+}
+
+.game-img {
+  width: 200px;
+  height: 200px;
+}
 
 /*
 .card-item-link {

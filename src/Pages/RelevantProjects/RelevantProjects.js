@@ -9,14 +9,7 @@ function RelevantProjects() {
 
   return (
     <div>
-        <button
-        onClick={() => {
-            navigate("/");}}
-        className='relevantprojects-home-btn'>
-            HOME
-        </button>   
-
-        <Cards />
+      <Cards />
     </div>
   )
 }
