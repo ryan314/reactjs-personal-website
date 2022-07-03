@@ -24,15 +24,6 @@ function AboutCSProjects() {
                 Navigate to the "Home" button below and click on the "Relevant Projects" button on the Home
                 page to see details about personal CS projects I have done.
             </div> 
-
-            <div className="about-cs-projects-footer"></div>
-
-            <button 
-            onClick={() => {
-            navigate("/", {state: true })}}
-            className="btn about-cs-projects-home-btn"> 
-                Home
-            </button>
         </div>
     );
 }

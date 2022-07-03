@@ -36,15 +36,6 @@ function AboutAbsFuncSimulator() {
                 <br/>
                 In fact, you can graph the absolute function for a,h, and k ranging from -10 to 10
             </div>
-
-            <div className='abs-func-footer'></div>
-
-            <button 
-            onClick={() => {
-            navigate("/", {state: true })}}
-            className="btn abs-func-home-btn"> 
-                Home
-            </button>
         </div>
     );
 }

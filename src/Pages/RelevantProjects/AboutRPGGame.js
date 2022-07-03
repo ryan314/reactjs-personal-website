@@ -25,13 +25,6 @@ function AboutRPGGame() {
             <img className='rpg-game0-img' src={rpgGame0}></img>
             <img className='rpg-game1-img' src={rpgGame1}></img>
             <img className='rpg-game2-img' src={rpgGame2}></img>
-            <img className='rpg-game3-img' src={rpgGame3}></img>
-            <img className='rpg-game4-img' src={rpgGame4}></img>
-            <img className='rpg-game5-img' src={rpgGame5}></img>
-            <img className='rpg-game6-img' src={rpgGame6}></img>
-            <img className='rpg-game7-img' src={rpgGame7}></img>
-            <img className='rpg-game8-img' src={rpgGame8}></img>
-            <img className='rpg-game9-img' src={rpgGame9}></img>
 
             <div className='rpg-game-description'>
                 Image 1: This is the home screen where the player has the option to choose whether to play, click on play
@@ -48,15 +41,6 @@ function AboutRPGGame() {
                 <br/>
                 Image 9-10: These are images of the character battling against the final enemy.
             </div>
-
-            <div className='rpg-game-footer'></div>
-
-            <button 
-            onClick={() => {
-            navigate("/", {state: true })}}
-            className="btn rpg-game-home-btn"> 
-                Home
-            </button>
         </div>
     );
 }

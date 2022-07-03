@@ -46,15 +46,6 @@ function AboutChess() {
                 engine (in this picture, the Stockfish engine is rated 3000, which 
                 is the highest rating possible on Lichess)
             </div>
-            
-            <div className='about-chess-footer'></div>
-
-            <button 
-            onClick={() => {
-            navigate("/", {state: true })}}
-            className="btn about-chess-home-btn"> 
-                Home
-            </button>
         </div>
     );
 }

@@ -20,20 +20,11 @@ function AboutPiano() {
     return (
         <div>
             <div className='about-piano-title'>Piano</div>
-            <img className='my-piano' src={myPiano} ></img>
+            <img className='piano-image' src={myPiano} ></img>
 
             <div className='about-piano-description'>
                 On the piano, I like to compose my own music as well as play Classical music. 
             </div>
-
-            <div className='about-piano-footer'></div>
-
-            <button 
-            onClick={() => {
-            navigate("/", {state: true })}}
-            className="btn about-piano-home-btn"> 
-                Home
-            </button>
         </div>
     );
 }
