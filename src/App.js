@@ -38,7 +38,7 @@ function App() {
         <Link to="/Hobbies" className="nav-link">Hobbies</Link>
       </nav>
 
-      <div className="logo">Ryan Chiu</div>
+   
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -61,3 +61,8 @@ function App() {
 }
 
 export default App;
+
+
+/*   <div className="logo">Ryan Chiu</div> */
+
+

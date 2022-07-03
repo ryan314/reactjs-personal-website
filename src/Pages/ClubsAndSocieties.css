@@ -5,12 +5,12 @@
   border-radius: 5px;
   border-style: double;
   padding: 10px;
-  transform: translate(0px, 50px);
+  transform: translate(0px, 100px);
 }
 
 .clubsandsocieties-home-btn {
     display: flex;
     margin: auto;
     padding: 10px;
-    transform: translate(0px, 150px);
+    transform: translate(0px, 200px);
 }

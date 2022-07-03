@@ -1,7 +1,10 @@
 .selfie {
     display: flex;
-    width: 500px;
     margin: auto;
+    width: 500px;
+    border-radius: 20px;
+    transform: translate(0px, 100px);
+
 }
 
 .biography {
@@ -18,11 +21,9 @@
     font-size: 20px;
 }
 
-
-
 .site-link1 {
     display: block;
-    transform: translate(0px, 600px);
+    transform: translate(0px, 500px);
     text-align: center;
     
     color: black;
@@ -31,19 +32,9 @@
 
 .site-link2 {
     display: block;
-    transform: translate(0px, 600px);
+    transform: translate(0px, 500px);
     text-align: center;
     
     color: black;
 }
 
-/*
-
-.reference-box {
-    height: 200px;
-    background: black;
-    position: relative;
-    top: 1500px;
-}
-
-*/ 
