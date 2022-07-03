@@ -21,13 +21,6 @@ function Home() {
         Hopefully you will get to know a little more about me
         through this website! Fun fact: I used VS Code to code and design this website :)
       </div>
-
-      <div className="reference-box">
-        
-      </div>
-
-      <a className="site-link1" href="https://www.linkedin.com/in/ryan-chiu-835745205/">LinkedIn</a>
-      <a className="site-link2" href="https://github.com/ryan314?tab=repositories">GitHub</a> 
     </div>
   );
 }

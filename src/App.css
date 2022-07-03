@@ -8,15 +8,11 @@
   color: rgb(75, 182, 228);
 }
 
-
-
 .navbar { 
   display: flex;
   justify-content: flex-end;
   margin: 20px 0px 0px 0px;
 }
-
-
 
 .nav-link {
   font-weight: 500;
@@ -32,10 +28,20 @@
   color:rgb(75, 182, 228);
 }
 
-
-.home-btn {
-  background: #000000
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  background: black;
+  height: 200px; 
+  transform: translate(0px, 2000px);
 }
 
+.linkedin-icon {
+  width: 50px;
+  margin: 10px 10px 0px 10px;
+}
 
-
+.github-icon {
+  width: 50px;
+  margin: 10px 10px 0px 10px;
+}

@@ -10,6 +10,8 @@ import AboutPiano from './Pages/Hobbies/AboutPiano.js';
 import AboutCSProjects from './Pages/Hobbies/AboutCSProjects.js';
 import AboutAbsFuncSimulator from './Pages/RelevantProjects/AboutAbsFuncSimulator.js';
 import AboutRPGGame from './Pages/RelevantProjects/AboutRPGGame.js';
+import githubIcon from './Images/github-icon.png';
+import linkedinIcon from './Images/linkedin-icon.png';
 
 import {
   BrowserRouter as Router, 
@@ -38,7 +40,14 @@ function App() {
         <Link to="/Hobbies" className="nav-link">Hobbies</Link>
       </nav>
 
-   
+      <div className="footer">
+        <a href="https://www.linkedin.com/in/ryan-chiu-835745205/">
+          <img className='linkedin-icon' src={linkedinIcon}></img>
+        </a>
+        <a href="https://github.com/ryan314?tab=repositories">
+          <img className='github-icon' src={githubIcon}></img>
+        </a>
+      </div>
 
       <Routes>
         <Route path="/" element={<Home />} />

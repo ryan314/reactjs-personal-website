@@ -8,13 +8,6 @@ function Hobbies() {
 
   return (
     <div className="hobbies-border">
-        <button
-        onClick={() => {
-            navigate("/");}}
-        className='hobbies-home-btn'>
-            HOME
-        </button> 
-
         <Cards />
     </div>
   )
