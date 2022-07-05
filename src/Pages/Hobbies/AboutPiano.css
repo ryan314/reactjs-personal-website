@@ -10,15 +10,18 @@
     margin: auto;
     width: 500px;
     border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(75, 182, 228);
     transform: translate(0px, 150px);
 }
 
 .about-piano-description {
     display: flex;
     max-inline-size: 700px;
-    border-style: double;
     border-radius: 10px;
+    background: white;
+    box-shadow: 10px 10px 10px rgb(231,231,231); 
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     transform: translate(0px, 200px);
 }

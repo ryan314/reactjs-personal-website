@@ -31,17 +31,17 @@
 .footer {
   display: flex;
   justify-content: flex-end;
-  background: black;
+  background: rgb(255,255,255);
   height: 200px; 
   transform: translate(0px, 2000px);
 }
 
 .linkedin-icon {
   width: 50px;
-  margin: 10px 10px 0px 10px;
+  margin: 15px 10px 0px 10px;
 }
 
 .github-icon {
   width: 50px;
-  margin: 10px 10px 0px 10px;
+  margin: 15px 10px 0px 10px;
 }

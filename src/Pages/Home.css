@@ -3,6 +3,8 @@
     margin: auto;
     width: 500px;
     border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(75, 182, 228);
     transform: translate(0px, 100px);
 
 }
@@ -15,17 +17,17 @@
 
     display: flex;
     min-width: 500px;
-    border-style: double;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
+    background: white; 
+    box-shadow: 10px 10px 10px rgb(231,231,231); 
 }
 
 .site-link1 {
     display: block;
     transform: translate(0px, 500px);
     text-align: center;
-    
     color: black;
 
 }

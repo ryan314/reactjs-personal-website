@@ -9,8 +9,9 @@
     display: flex;
     max-inline-size: 700px;
     margin: auto;
-    border-style: double;
     border-radius: 10px;
-    padding: 10px;
+    background: white;
+    box-shadow: 10px 10px 10px rgb(231,231,231);
+    padding: 20px;
     transform: translate(0px, 200px);
 }

@@ -1,10 +1,10 @@
 .achievements {
   display: flex;
   margin: auto;
-  border-style: double;
   border-radius: 5px;
-  padding: 10px;
-  
+  background: white;
+  box-shadow: 10px 10px 10px rgb(231,231,231); 
+  padding: 20px;
   max-inline-size: 500px;
   transform: translate(0px, 200px);
 }
